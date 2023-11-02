@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 房锦源
+title: Jinyuan Fang
 
 # Name pronunciation (optional)
-name_pronunciation: Fang Shiung Wu
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Jinyuan
