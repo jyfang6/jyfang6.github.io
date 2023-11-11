@@ -119,6 +119,5 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Jinyuan Fang is a PhD student at the University of Glasgow. His research interests include information retrieval, knowledge graph and retrieval-augmented methods. 
 {style="text-align: justify;"}
