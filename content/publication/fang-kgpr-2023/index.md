@@ -1,0 +1,39 @@
+---
+title: 'KGPR: Knowledge Graph Enhanced Passage Ranking'
+authors:
+- Jinyuan Fang
+- Zaiqiao Meng
+- Craig Macdonald
+date: '2023-10-01'
+publishDate: '2023-11-11T21:38:10.834284Z'
+publication_types:
+- paper-conference
+publication: '*Proceedings of the 32nd ACM International Conference on Information
+  and Knowledge Management*'
+doi: 10.1145/3583780.3615252
+abstract: Passage ranking aims to rank a set of passages based on their relevance
+  to a query. Current state-of-the-art models for this task typically employ a cross-encoder
+  structure. However, these models lack access to background knowledge, i.e., information
+  related to the query that can be helpful in retrieving relevant passages. Knowledge
+  Graphs (KGs) provide a structured way of storing information about entities and
+  their relationships, offering valuable background knowledge about entities. While
+  KGs have been used to augment pretrained language models (LMs) to perform several
+  reasoning tasks such as question answering, it remains an open question of how to
+  utilise the information from KGs to enhance the performance of cross-encoders on
+  the passage ranking task. Therefore, we propose KGPR, a KG-enhanced cross-encoder
+  for the Passage Retrieval task. KGPR is built upon LUKE, an entity-aware pretrained
+  LM, with an additional module that fuses information from KGs into LUKE. By leveraging
+  the background knowledge from KGs, KGPR enhances the model's comprehension of queries
+  and passages, resulting in improved ranking performance. Experimental results demonstrate
+  that using KGs can enhance the performance of LUKE in the passage retrieval task,
+  and KGPR can outperform state-of-the-art monoT5 cross-encoder by 3.32% and 10.77%
+  on the MS MARCO development set and TREC DL-HARD query set respectively, using a
+  model with a similar number of parameters.
+tags:
+- cross-encoder
+- knowledge graphs
+- passage ranking
+links:
+- name: URL
+  url: https://dl.acm.org/doi/10.1145/3583780.3615252
+---
